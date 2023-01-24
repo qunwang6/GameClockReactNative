@@ -34,15 +34,15 @@ async function annouce(remainingTime:number) {
   let sound = new Audio.Sound()
   if (remainingTime==120){
     console.log('Playing 2-minute warning Sound');
-    await sound.loadAsync(require('../assets/TwoMinuteWarning.mp3'));
+    await sound.loadAsync(require('../assets/sounds/2minutes.mp3'));
     await sound.playAsync();
   } else if (remainingTime==60){
     console.log('Playing 1-minute warning Sound');
-    await sound.loadAsync(require('../assets/FinalWhistle.mp3'));
+    await sound.loadAsync(require('../assets/sounds/1minute.mp3'));
     await sound.playAsync();
   }else if(remainingTime==0){
     console.log('Playing final whistle Sound');
-    await sound.loadAsync(require('../assets/FinalWhistle.mp3'));
+    await sound.loadAsync(require('../assets/sounds/FinalWhistle.mp3'));
     await sound.playAsync()
   }else{
   }

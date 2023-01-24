@@ -14,7 +14,7 @@ async function playGoal() {
     playsInSilentModeIOS: true,
 });
   const sound = new Audio.Sound()
-  await sound.loadAsync(require('../assets/Goal.mp3')
+  await sound.loadAsync(require('../assets/sounds/Goal.mp3')
   );
 
   console.log('Playing Sound');
@@ -29,7 +29,7 @@ async function playDefense() {
     playsInSilentModeIOS: true,
 });
   const sound = new Audio.Sound()
-  await sound.loadAsync(require('../assets/DefenseChant.mp3')
+  await sound.loadAsync(require('../assets/sounds/DefenseChant.mp3')
   );
 
   console.log('Playing Sound');
