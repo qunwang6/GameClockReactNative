@@ -5,4 +5,4 @@ Custom timer app made for Street FC game captains. Automatically lowers backgrou
 Does not run while app is in background or phone is closed. Everything else works as intended. 
 
 ## Installation
-Not on available on IOS or Android yet, to use, download repo and its dependencies with yarn, run <yarn start> and use expo go to scan QR code. 
+Not on available on IOS or Android yet. To use, download repo and its dependencies with yarn, run ```yarn start``` and use expo go to scan QR code. 
