@@ -1,4 +1,4 @@
-# GameClock
+# GameClock ⚽️⏱
 Custom timer app made for Street FC game captains. Automatically lowers background music to make periodic announcements during 4-minute games. Sound effect suite available.
 
 ## Issues
